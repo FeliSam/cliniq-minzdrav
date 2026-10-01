@@ -1,6 +1,6 @@
 ﻿КАРДИО ДЗМ — тренажёр к оценке квалификации кардиолога (поликлиника, приказ ДЗМ № 827)
 Cardio DZM — entraîneur hors ligne pour l'évaluation de cardiologue (polyclinique, arrêté n° 827)
-Version 1.2 — 01.10.2026 (106 кейсов · 742 вопроса · 30 задач)
+Version 1.3 — 01.10.2026 (106 кейсов · 742 вопроса · 30 задач) · en ligne / онлайн : https://felisam.github.io/cliniq-minzdrav/
 
 === FR — Comment l'ouvrir ===
 1. Double-cliquer sur index.html (Chrome, Edge ou Firefox). Aucune connexion Internet n'est nécessaire : tout est local (pas de CDN).
@@ -21,3 +21,12 @@ Version 1.2 — 01.10.2026 (106 кейсов · 742 вопроса · 30 зад�
 
 Изменения 1.2: экзамен — 100 вопросов из 100 разных кейсов; все кейсы расширены до 7 вопросов; +61 новый кейс (всего 106 кейсов, 742 вопроса); выровнена длина вариантов ответа. Прогресс версии 1.1 сохраняется.
 Changements 1.2 : examen = 100 questions issues de 100 cas différents ; tous les cas passent à 7 questions ; +61 nouveaux cas (106 cas, 742 questions) ; longueur des options équilibrée. La progression v1.1 est conservée.
+
+Изменения 1.3: мобильная версия как приложение — нижняя панель вкладок (Главная, Экзамен, Тесты, Задачи, Ещё), компактная верхняя панель с таймером, нижняя панель действий (Назад / Отметить / Все вопросы / Далее), навигатор вопросов в выдвижной панели, сворачиваемые условие и анализы, свайп влево/вправо между вопросами, тёмная тема (как в системе или вручную), установка на телефон (PWA) и работа без интернета. Прогресс сохраняется.
+Changements 1.3 : version mobile façon application — barre d'onglets en bas, barre du haut compacte avec minuteur, barre d'actions (Назад / Отметить / Все вопросы / Далее), navigateur des questions en panneau coulissant, vignette et analyses repliables, balayage gauche/droite entre questions, mode sombre (auto ou manuel), installation sur téléphone (PWA) et fonctionnement hors ligne. La progression est conservée.
+
+=== Installer sur téléphone / Установка на телефон ===
+iPhone (Safari) : ouvrir https://felisam.github.io/cliniq-minzdrav/ → bouton Partager (carré avec flèche) → « Sur l'écran d'accueil » → Ajouter.
+Android (Chrome) : ouvrir le lien → menu ⋮ → « Installer l'application » (ou « Ajouter à l'écran d'accueil »).
+Après la première ouverture en ligne, l'application fonctionne sans Internet. La progression du téléphone est séparée de celle de l'ordinateur (export/import JSON dans « Настройки » pour la transférer).
+iPhone (Safari): откройте ссылку → «Поделиться» → «На экран „Домой“». Android (Chrome): меню ⋮ → «Установить приложение». После первого открытия работает офлайн. Прогресс на телефоне хранится отдельно (перенос — «Настройки → Экспорт/Импорт JSON»).

@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Кардиология ДЗМ — подготовка к оценке при трудоустройстве</title>
+<meta name="description" content="Офлайн-тренажёр к оценке квалификации кардиолога (ДЗМ, приказ № 827): 100 тестов из 100 ситуаций, ситуационные задачи, повторение ошибок.">
+<meta name="theme-color" content="#b4232f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161c29" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Кардио ДЗМ">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script>(function(){try{var t=localStorage.getItem("cardioDZM.theme")||"auto";if(t==="auto")t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t);}catch(e){}
+if(/^https?:$/.test(location.protocol)){var l=document.createElement("link");l.rel="manifest";l.href="manifest.json";document.head.appendChild(l);}})();</script>
 <link rel="stylesheet" href="css/app.css"></head>
 <body>
-<header class="top"><div class="brand">❤ Кардио ДЗМ <small>оценка при трудоустройстве · приказ № 827</small></div>
+<header class="top"><a class="brand" href="#home" aria-label="Кардио ДЗМ — главная"><img src="icons/favicon-32.png" alt=""><span class="bt">Кардио ДЗМ</span> <small>оценка при трудоустройстве · приказ № 827</small></a>
+<div class="pgtitle" id="pgtitle">Кардио ДЗМ</div>
 <nav class="menu" id="menu">
 <a href="#home">Главная</a><a href="#exam">Экзамен</a><a href="#train">Тесты</a><a href="#zadachi">Задачи</a>
-<a href="#review">Повторение</a><a href="#banks">Банки</a><a href="#stats">Статистика</a><a href="#plan">План</a><a href="#settings">Настройки</a></nav></header>
+<a href="#review">Повторение</a><a href="#banks">Банки</a><a href="#stats">Статистика</a><a href="#plan">План</a><a href="#settings">Настройки</a></nav>
+<div class="hdr-r"><span id="htimer" class="timer" aria-live="off"></span><button class="iconbtn" id="themebtn" type="button" aria-label="Тёмная / светлая тема" title="Тёмная / светлая тема"></button></div></header>
 <main id="app"><div class="card">Загрузка… Если эта надпись не исчезает — включите JavaScript.</div></main>
 <footer>Работает офлайн. Прогресс хранится в этом браузере (localStorage) — делайте экспорт в «Настройках». Материал учебный, авторский; сверяйте с действующими КР (cr.minzdrav.gov.ru).</footer>
 <script src="data/kr.js"></script>
@@ -35,5 +51,9 @@
 <script src="data/zad_misc4.js"></script>
 <script src="data/bank_demo_kc.js"></script>
 <script src="data/bank_fmza.js"></script>
+<nav class="tabbar" id="tabbar" aria-label="Навигация"></nav>
+<div class="actbar" id="actbar"></div>
+<div class="scrim" id="scrim"></div><div class="sheet" id="sheet" role="dialog" aria-modal="true"><div class="grab"></div><div id="sheetc"></div></div>
+<script src="js/ui.js"></script>
 <script src="js/app.js"></script>
 </body></html>
